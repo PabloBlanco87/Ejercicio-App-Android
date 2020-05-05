@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61F9A825"
+    tools:context=".Activity2">
+
+    <Button
+        android:id="@+id/mostrar"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="55dp"
+        android:text="@string/mostrar_nombres"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/atras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insertar" />
+
+    <Button
+        android:id="@+id/insertar"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="55dp"
+        android:text="@string/insertar_nombre"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/mostrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crear" />
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="41dp"
+        android:text="@string/volver_atrás1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mostrar" />
+
+    <Button
+        android:id="@+id/crear"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Crear_tabla"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/insertar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="369dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/insert"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/insertarTexto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/insertarTexto"
+        android:layout_width="363dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="173dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="30sp"
+        android:singleLine="true"
+        android:textSize="24sp"
+        android:visibility="visible"
+        android:hint="@string/sugerencia"
+        app:layout_constraintBottom_toTopOf="@+id/crear"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

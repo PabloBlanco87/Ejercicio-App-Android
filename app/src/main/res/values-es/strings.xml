@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PACDesarrollo</string>
+    <string name="Actividad_2">Actividad 2</string>
+    <string name="Actividad_3">Actividad 3</string>
+    <string name="foto">Logo de APP</string>
+    <string name="VolverAtras">Ir atrás</string>
+    <string name="Iniciar_Servicio">Iniciar Servicio</string>
+    <string name="Detener_Servicio">Detener Servicio</string>
+    <string name="Reproducir_música">Reproducir música</string>
+    <string name="Parar_música">Detener música</string>
+    <string name="Detener_APP">Detener APP</string>
+    <string name="muestra_texto">Inicie el servicio y seleccione una opción</string>
+    <string name="insertar_nombre">Insertar nombre</string>
+    <string name="volver_atrás1">Volver atrás</string>
+    <string name="Crear_tabla">Crear nueva tabla</string>
+    <string name="insert">Inserte un nombre aquí</string>
+    <string name="mostrar_nombres">Mostrar nombres</string>
+    <string name="sugerencia">Isaac Newton</string>
+
+</resources>

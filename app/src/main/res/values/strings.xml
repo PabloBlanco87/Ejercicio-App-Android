@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PACDesarrollo</string>
+    <string name="Actividad_2">Go to activity 2</string>
+    <string name="Actividad_3">Go to activity 3</string>
+    <string name="foto">Logo for the app</string>
+    <string name="VolverAtras">Go back</string>
+    <string name="Iniciar_Servicio">Start Service</string>
+    <string name="Detener_Servicio">Stop Service</string>
+    <string name="Reproducir_música">Play music</string>
+    <string name="Parar_música">Stop music</string>
+    <string name="Detener_APP">Stop APP</string>
+    <string name="muestra_texto">Start the Service and select an option</string>
+    <string name="insertar_nombre">Insert name</string>
+    <string name="volver_atrás1">Go back</string>
+    <string name="Crear_tabla">Create new table</string>
+    <string name="insert">Insert a name here</string>
+    <string name="mostrar_nombres">Show all names</string>
+    <string name="sugerencia">Isaac Newton</string>
+
+</resources>
